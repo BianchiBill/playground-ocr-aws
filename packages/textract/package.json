@@ -1,0 +1,12 @@
+{
+  "name": "textract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node run.js"
+  },
+  "dependencies": {
+    "esm": "3.2.25"
+  }
+}

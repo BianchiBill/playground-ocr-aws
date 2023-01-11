@@ -2,11 +2,12 @@
   "name": "textract",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "type": "module",
   "scripts": {
     "start": "node run.js"
   },
   "dependencies": {
-    "esm": "3.2.25"
+    "@aws-sdk/client-textract": "3.245.0",
+    "aws-sdk": "2.1291.0"
   }
 }
